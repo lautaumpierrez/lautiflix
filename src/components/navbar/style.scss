@@ -1,0 +1,112 @@
+@media screen and (min-width: 1024px){
+	.navbar{
+		height: 75px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.navbar{
+		.navbar-brand {
+			padding-top: 5px;
+		}
+	}
+}
+
+
+.navbar{
+	transition-duration: 0.3s;
+	background-color: transparent !important;
+	padding-left: 35px !important;
+	&.is-scrolled
+	{
+		transition-duration: 0.3s;
+		background-color: rgb(51,51,51) !important;
+	}
+	.navbar-brand{
+		.navbar-item{
+			// /*span{color: #e50914 !important;}*/
+			img{
+				transform: scale(1.2);
+			}
+			&.menu_for_mobile{
+				*{
+					outline: 0px !important;
+					&:focus,&:active, &:hover{
+						outline: 0px !important;
+						box-shadow: 0px !important;
+					}
+				}
+				outline: 0px !important;
+				&:focus,&:active, &:hover{
+					outline: 0px !important;
+					box-shadow: 0px !important;
+				}
+
+				.dropdown{
+					outline: 0px !important;
+					&:focus,&:active, &:hover{
+						outline: 0px !important;
+						box-shadow: 0px !important;
+					}
+
+					border-radius: 0px;
+					.dropdown-content{
+						position: fixed;
+						width: 80%;
+						left: 10%;
+						z-index: 1000;
+						border-top: 2px solid rgb(210,210,210);
+						top: 60px;
+						border-radius: 0px;
+						background-color: rgba(0,0,0,.8) !important;
+						.dropdown-item{
+							color: #fff;
+							height: 50px;
+							text-align: center;
+						}
+					}
+					.dropdown-trigger{
+						outline: 0px !important;
+						&:focus,&:active, &:hover{
+							outline: 0px !important;
+							box-shadow: 0px !important;
+						}
+					}
+					.button{
+						border: none;
+						color: #fff;
+						outline: 0px !important;
+						&:focus,&:active, &:hover{
+							outline: 0px !important;
+							box-shadow: 0px !important;
+						}
+
+						background-color: transparent !important;
+					}
+				}
+
+			}
+		}
+	}
+	.navbar-menu{
+		padding-left: 20px;
+		.navbar-start{
+			.navbar-item{
+				color: #e6e6e6;
+				font-size: 14px;
+				margin-left: 5px;
+				font-weight: 700;
+
+				transition-duration: 0.4s;
+				&:hover{
+					color: rgb(200,200,200) !important;
+					transition-duration: 0.4s;
+					background-color: transparent;
+				}
+				&.active{
+					font-weight: 700 !important;
+					color: #fff !important;
+				}
+			}
+		}
+	}
+}
