@@ -1,4 +1,22 @@
-// Video Component
+// Video Component.
+.VideoComponentDoYouWontClose{
+  position: fixed;
+  bottom: 30px;
+  height: auto;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+  text-align: center;
+  .button{
+    transition-duration: 0.3s;
+    width: 150px;
+    &.hover{
+      transition-duration: 0.3s;
+
+    }
+  }
+}
 .VideoComponent{
   width: 100%;
   height: 100vh;
@@ -6,7 +24,7 @@
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,.3);
-  z-index: 14000;
+  z-index: 999;
   display: table;
   transition-duration: 0.3s;
   div.videoComponentContainer{
@@ -20,7 +38,6 @@
       z-index: 16000;
       opacity: 0;
       transition-duration: 0.3s;
-
       &.isActive{
         opacity: 1;
         transition-delay: 1s;

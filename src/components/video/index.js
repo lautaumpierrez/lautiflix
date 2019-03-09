@@ -16,11 +16,16 @@ class Video extends React.Component{
     return (
       <div>
         {isActive ? (
-          <div className="VideoComponent" onClick={closeVideo}>
-            <div className="videoComponentContainer">
-              <video controls className={isActive ? 'isActive' : ''}>
-                <source src={src} type="video/mp4"/>
-              </video>
+          <div>
+            <div className="VideoComponentDoYouWontClose">
+              <button className="button is-white is-outlined" onClick={closeVideo}>Cerrar</button>
+            </div>
+            <div className="VideoComponent">
+              <div className="videoComponentContainer">
+                <video controls className={isActive ? 'isActive' : ''}>
+                  <source src={src} type="video/mp4"/>
+                </video>
+              </div>
             </div>
           </div>) : (null)}
       </div>
