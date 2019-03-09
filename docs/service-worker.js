@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lautiflix/precache-manifest.fd462d4a3f77d075e72ec96027ee2e61.js"
+  "/lautiflix/precache-manifest.3827dd67a55d786c81c2544c8d08a5c5.js"
 );
 
 workbox.clientsClaim();

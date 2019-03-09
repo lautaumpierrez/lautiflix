@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "14c16b7969784df8c2d2",
-    "url": "/lautiflix/static/css/main.944eb15b.chunk.css"
+    "revision": "725f095c89e27b2fb7e2",
+    "url": "/lautiflix/static/css/main.ec6986ec.chunk.css"
   },
   {
-    "revision": "14c16b7969784df8c2d2",
-    "url": "/lautiflix/static/js/main.14c16b79.chunk.js"
+    "revision": "725f095c89e27b2fb7e2",
+    "url": "/lautiflix/static/js/main.725f095c.chunk.js"
   },
   {
     "revision": "f0a9c459179b39afd987",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/lautiflix/static/media/bg-grimm.3f6fcb1a.jpg"
   },
   {
-    "revision": "1b382752b104044e9735863592618f61",
+    "revision": "a35f82e162a3f48364b57913781495d7",
     "url": "/lautiflix/index.html"
   }
 ];
