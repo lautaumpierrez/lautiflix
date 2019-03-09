@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import KeyboardEventHandler from 'react-keyboard-event-handler';
 
 import './style.scss';
 class Video extends React.Component{
@@ -9,7 +8,6 @@ class Video extends React.Component{
     document.addEventListener('keyup',event=>{
       if(event.keyCode == 27){
         closeVideo();
-        console.log('close func')
       }
     });
   }
